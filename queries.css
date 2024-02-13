@@ -1,0 +1,112 @@
+@media (max-width: 1700px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media (max-width: 1470px) {
+  html {
+    font-size: 50%;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1150px) {
+  html {
+    font-size: 45%;
+  }
+  .btn {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 970px) {
+  html {
+    font-size: 45%;
+  }
+  .main-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .btn {
+    font-size: 1.8rem;
+  }
+  .main-txt {
+    font-size: 1.6rem;
+  }
+  .struki {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 805px) {
+  .misija {
+    flex-direction: column;
+  }
+  .rasporedi {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-holder {
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+  }
+}
+@media (max-width: 760px) {
+  .nav-link {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+  }
+  .logo-holder {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 43%;
+  }
+  .main-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .main-header {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 470px) {
+  html {
+    font-size: 37.5%;
+  }
+  .main-container {
+    padding: 0.5rem 3.2rem;
+  }
+  .secondary-header {
+    font-size: 2.2rem;
+  }
+  .third-header {
+    font-size: 2rem;
+  }
+  .logo-holder {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 37.5%;
+  }
+  .main-container {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .nav {
+    padding: 0.5rem 3.2rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+  .rasporedi {
+    display: flex;
+    flex-direction: column;
+  }
+}

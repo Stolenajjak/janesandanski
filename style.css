@@ -1,0 +1,161 @@
+/* 
+FONT SIZE -
+glaven naslov = 3.8rem 
+
+ZA FOOTER
+ #364fc7
+
+*/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* NAVIGACIJA */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.logo-header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  /* margin-left: 15rem; */
+}
+.main-header {
+  color: white;
+}
+.nav {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 5rem;
+
+  padding: 0.5rem 6.4rem;
+
+  background-color: #4c6ef5;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 15rem; */
+
+  gap: 2rem;
+  font-size: 1.8rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  color: white;
+}
+.nav-link:active,
+.nav-link:hover {
+  color: #f08c00;
+}
+
+.links:link,
+.links:visited {
+  text-decoration: none;
+  font-weight: 400;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* MAIN HERO*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.misija {
+  display: flex;
+  gap: 2.4rem;
+}
+.main-txt {
+  font-size: 1.75rem;
+  display: flex;
+  align-items: flex-start;
+}
+.struki-header {
+  display: flex;
+  justify-content: center;
+}
+.struki {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2.6rem;
+  column-gap: 10rem;
+  margin-bottom: 6.4rem;
+}
+.btn {
+  font-size: 2.4rem;
+  padding: 1rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  background-color: #4263eb;
+  color: white;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+}
+.btn-2 {
+  box-shadow: 0;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+.test {
+  width: 60%;
+  height: 100vh;
+}
+.mobile-nav {
+  background-color: white;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  bottom: 0;
+
+  position: absolute;
+  justify-content: center;
+  background-color: #4264ebd0;
+}
+
+.mobile-nav-links {
+  text-decoration: none;
+  font-size: 3.2rem;
+  display: block;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2.4rem;
+}
+.mobile-nav-links:active,
+.mobile-nav-links:hover,
+.mobile-nav-links:link,
+.mobile-nav-links:visited {
+  color: none;
+  text-decoration: none;
+  background-color: none;
+}
+.btn-holder {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2.4rem;
+}
+.nav-btn {
+  z-index: 100;
+}
+/* .close-btn {
+  z-index: 100;
+}
+.open-btn {
+  z-index: 454444;
+} */
+.hidden {
+  display: none;
+}
+.trans-hide {
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+.trans-show {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
